@@ -1,0 +1,3 @@
+[submodule "themes/alex-hugo-theme"]
+	path = themes/alex-hugo-theme
+	url = git@github.com:alex-la-dev/alex-hugo-theme.git

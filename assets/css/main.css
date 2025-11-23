@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@source "hugo_stats.json";
+
+@layer components {
+  .navbar-icon {
+    @apply relative flex justify-center items-center
+           h-12 w-24 m-2
+           hover:bg-green-600 hover:rounded-xl
+           transition-all duration-300
+           cursor-pointer;
+  }
+}
